@@ -18,7 +18,6 @@
 - [Servicio de Autenticación/Autorización](#servicio-de-autenticaciónautorización)
 - [Configuración](#configuración)
 - [Información de Licencia](#información-de-licencia)
-- [Preguntas Frecuentes](#preguntas-frecuentes)
 - [Agradecimientos](#agradecimientos)
 
 ## Plataforma de Comunicación
@@ -151,11 +150,6 @@ Para ejecutar el proyecto en tu equipo, sigue estos pasos:
 ## Información de Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
-
-## Preguntas Frecuentes
-
-### ¿El proyecto está listo para producción?
-El proyecto está en continuo desarrollo.
 
 ## Agradecimientos
 
