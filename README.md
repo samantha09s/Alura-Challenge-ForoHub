@@ -17,6 +17,8 @@
 - [Implementación de Base de Datos](#implementación-de-base-de-datos)
 - [Servicio de Autenticación/Autorización](#servicio-de-autenticaciónautorización)
 - [Configuración](#configuración)
+- [Información de Licencia](#información-de-licencia)
+- [Preguntas Frecuentes](#preguntas-frecuentes)
 - [Agradecimientos](#agradecimientos)
 
 ## Plataforma de Comunicación
@@ -98,11 +100,38 @@ Para obtener un token JWT válido, los usuarios deben autenticarse correctamente
 
 La respuesta incluirá un token JWT que se puede utilizar en las solicitudes posteriores:
 
-```json
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
-}
-```
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+    }
+
+### Crear un Tópico
+
+    POST /api/topics HTTP/1.1
+    Host: tu-servidor.com
+    Content-Type: application/json
+    
+    {
+      "title": "Nuevo Tópico",
+      "content": "Contenido del tópico",
+      "userId": 1
+    }
+
+### Actualizar un Tópico
+
+    PUT /api/topics/1 HTTP/1.1
+    Host: tu-servidor.com
+    Content-Type: application/json
+    
+    {
+      "title": "Título Actualizado",
+      "content": "Contenido actualizado"
+    }
+
+### Eliminar un Tópico
+
+    DELETE /api/topics/1 HTTP/1.1
+    Host: tu-servidor.com
+    Content-Type: application/json
 
 ## Configuración
 
@@ -119,6 +148,15 @@ Para ejecutar el proyecto en tu equipo, sigue estos pasos:
   <img src="https://via.placeholder.com/800x400.png?text=Pasos+de+Configuracion+del+Proyecto" alt="Pasos de Configuración del Proyecto">
 </div>
 
+## Información de Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Preguntas Frecuentes
+
+### ¿El proyecto está listo para producción?
+El proyecto está en continuo desarrollo.
+
 ## Agradecimientos
 
 Agradezco al equipo ONE, Alura Latam y toda la comunidad por la oportunidad de ser parte de esta experiencia y por aprender tanto con sus cursos, retroalimentaciones y conocimientos.
@@ -128,3 +166,9 @@ Agradezco al equipo ONE, Alura Latam y toda la comunidad por la oportunidad de s
     <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
 </div>
+
+> [!NOTE]
+> Utiliza siempre la última versión de Java y Spring Boot para asegurar compatibilidad y seguridad..
+
+> [!WARNING]
+> No expongas tus credenciales de la base de datos ni tus claves secretas JWT en un entorno público..
