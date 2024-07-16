@@ -18,7 +18,7 @@
 - [Servicio de Autenticación/Autorización](#servicio-de-autenticaciónautorización)
 - [Configuración](#configuración)
 - [Información de Licencia](#información-de-licencia)
-- [Agradecimientos](#agradecimientos)
+- [Agradecimientos y Logro](#agradecimientos-y-logro)
 
 ## Plataforma de Comunicación
 
@@ -151,14 +151,20 @@ Para ejecutar el proyecto en tu equipo, sigue estos pasos:
 
 Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## Agradecimientos
+## Agradecimientos y Logro
 
-Agradezco al equipo ONE, Alura Latam y toda la comunidad por la oportunidad de ser parte de esta experiencia y por aprender tanto con sus cursos, retroalimentaciones y conocimientos.
+**Desafío Foro Hub Completado:** Agradezco al equipo ONE, Alura Latam y toda la comunidad por la oportunidad de ser parte de esta experiencia y por aprender tanto con sus cursos, retroalimentaciones y conocimientos.
+
+*¡He completado con satisfacción el desafío Foro Hub!*
 
 <div align="center">
   <a href="https://www.linkedin.com/in/samanthamunguia/">
     <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f9cdb21d-1531-461b-a975-472ce141220e" alt="Badge-Spring">
 </div>
 
 > [!NOTE]
